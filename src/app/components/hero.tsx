@@ -48,7 +48,6 @@ const Hero = () => {
                         </div>
                     </Fade>
 
-
                     <div className="w-full relative -mt-8 lg:-mt-14">
                         <Fade delay={200}>
                             <div>
@@ -61,8 +60,9 @@ const Hero = () => {
                                 />
                             </div>
                         </Fade>
-                        <Fade delay={250}>
-                            <div className="z-40 -mt-36 sm:-mt-40 md:-mt-48 lg:-mt-56">
+
+                        <div className="z-50 -mt-36 sm:-mt-40 md:-mt-48 lg:-mt-56">
+                            <Fade delay={250} className='z-50'>
                                 <Image 
                                     src="/images/hero/seconde.png" 
                                     width={400} 
@@ -70,10 +70,11 @@ const Hero = () => {
                                     alt="first card image"
                                     className="w-full max-w-[300px max-w-[450px] h-auto object-contain"
                                 />
-                            </div>
-                        </Fade>
-                        <Fade delay={300}>
-                            <div className="-z-40 -mt-32 md:-mt-44 absolute left-10">
+                            </Fade>
+                        </div>   
+
+                        <div className="-z-40 -mt-32 md:-mt-44 absolute left-10">
+                            <Fade delay={300} className='-z-40'>
                                 <Image 
                                     src="/images/hero/third-card.png" 
                                     width={400} 
@@ -81,8 +82,8 @@ const Hero = () => {
                                     alt="third card image"
                                     className="w-full max-w-[260px] md:max-w-[330px] h-auto object-contain"
                                 />
-                            </div>
-                        </Fade>
+                            </Fade>
+                        </div>
                     </div>
 
                     <Fade delay={350} >
