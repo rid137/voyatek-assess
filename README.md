@@ -7,7 +7,7 @@ This is the website for the Voyatek Frontend assessment. It is built with Typesc
 #### First, clone the repository:
 
 ```bash
-git clone https://github.com/rid137/map-assess.git
+git clone https://github.com/rid137/voyatek-assess.git
 ```
 
 ### Package Manager
