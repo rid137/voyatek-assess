@@ -78,8 +78,8 @@ const CardDeal = () => {
                         </div>
 
                         {/* Pay method */}
-                        <div className="flex justify-center w-full overflow-hidden">
-                            <Slide direction='right' delay={200} className='w-full'>
+                        <div className="flex justify-center items-center w-full overflow-hidden">
+                            <Slide direction='right' delay={200} className='w-full flex justify-center'>
                                 <div className="bg-slate-950 w-full md:w-[18rem] flex flex-col gap-2 p-4 rounded-lg bg-custom-gradient">
                                     <div className="flex items-center justify-between mb-3">
                                         <p className="text-md font-medium">Pay Method</p>
