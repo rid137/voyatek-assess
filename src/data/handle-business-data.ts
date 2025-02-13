@@ -22,19 +22,19 @@ export const handleBusinessData: IHandleBusiness[] = [
 export const testimonials: ITestimonial[] = [
     {
         message: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-        profileImage: "/images/testimonials/image-one.svg",
+        profileImage: "/images/testimonials/user1.svg",
         name: "Herman Jensen",
         role: "Founder & Leader"
     },
     {
         message: "Money makes your life easier. If you're lucky to have it, you're lucky.",
-        profileImage: "/images/testimonials/image-two.svg",
+        profileImage: "/images/testimonials/user2.svg",
         name: "Steve Mark",
         role: "Founder & Leader"
     },
     {
         message: "It is usually people in the money business, finance, and international trade that are really rich.",
-        profileImage: "/images/testimonials/image-three.svg",
+        profileImage: "/images/testimonials/user3.svg",
         name: "Kenn Gallagher",
         role: "Founder & Leader"
     }

@@ -24,7 +24,7 @@ const Testimonial = () => {
                             <p className='w-full md:w-[80%] md:h-[28%]'>{testimonial?.message}</p>
 
                             <div className="flex items-center gap-3">
-                                <Image className='rounded-full object-cover' src={testimonial.profileImage} width={36} height={36} alt='user profile image' />
+                                <Image className='rounded-full object-cover' src={testimonial?.profileImage} width={36} height={36} alt='user profile image' />
                                 <div className="">
                                     <p className="text-md">{testimonial?.name}</p>
                                     <p className="opacity-70 text-sm">{testimonial?.role}</p>
