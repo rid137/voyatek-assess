@@ -8,9 +8,9 @@ const Testimonial = () => {
     return (
         <section className='section-padding mb-10 text-white w-full'>
             <Slide direction="down">
-                <div className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-20 w-full mb-10 md:mb-16">
-                    <div className="w-full lg:w-[50%]"><h3 className="text-xl md:text-2xl lg:text-4xl font-bold !leading-[1.5] w-[70%]">What people are saying about us</h3></div>
-                    <div className="w-full lg:w-[50%]"><p className="text-sm md:text-normal opacity-70 w-[60%]">Everything you need to accept card payments and grow your business anywhere on the planet.</p>                </div>
+                <div className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-20 w-full mb-10 md:mb-16">
+                    <div className="w-full lg:w-[50%]"><h3 className="text-xl md:text-2xl lg:text-4xl font-bold !leading-[1.5] lg:w-[70%]">What people are saying about us</h3></div>
+                    <div className="w-full lg:w-[50%]"><p className="text-sm md:text-normal opacity-70 lg:w-[60%]">Everything you need to accept card payments and grow your business anywhere on the planet.</p>                </div>
                 </div>
             </Slide>
 
@@ -24,7 +24,7 @@ const Testimonial = () => {
                             <p className='w-full md:w-[80%] md:h-[28%]'>{testimonial?.message}</p>
 
                             <div className="flex items-center gap-3">
-                                <Image className='rounded-full object-cover' src={testimonial?.profileImage} width={36} height={36} alt='user profile image' />
+                                <Image className='rounded-full object-cover' src={testimonial.profileImage} width={36} height={36} alt='user profile image' />
                                 <div className="">
                                     <p className="text-md">{testimonial?.name}</p>
                                     <p className="opacity-70 text-sm">{testimonial?.role}</p>
