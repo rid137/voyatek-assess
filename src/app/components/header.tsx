@@ -20,7 +20,7 @@ const Header = () => {
 
                     {/* Right Section: Navigation */}
                     <div className="w-[50%] flex z-[999999] py-8 section-padding" style={{ backgroundImage: 'url(/images/hero/grad-bg.svg)' }}>
-                        <div className="w-full flex items-end justify-end gap-6 text-white">
+                        <div className="w-full flex items-end justify-end gap-12 text-s text-white">
                         <p className="hover:opacity-50 cursor-pointer">Home</p>
                         <p className="hover:opacity-50 opacity-70 cursor-pointer">About Us</p>
                         <p className="hover:opacity-50 opacity-70 cursor-pointer">Features</p>

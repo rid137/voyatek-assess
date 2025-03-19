@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { Slide } from 'react-awesome-reveal';
+import { Fade, Slide } from 'react-awesome-reveal';
 import GradientButton from './common/gradient-button';
 
 const CardDeal = () => {
@@ -8,11 +8,11 @@ const CardDeal = () => {
         <section className='section-padding mb-10 xl:mb-0 text-white flex flex-col xl:flex-row items-center gap-10 lg:gap-6 xl:gap-10'>
             {/* Left ection */}
             <div className="w-full xl:w-[50%]">
-                <Slide direction='left' cascade damping={0.2} className='w-full overflow-hidden'>
-                    <h3 className="text-xl md:text-2xl lg:text-4xl font-bold mb-4 xl:mb-8 !leading-[1.5]">Find a better card deal in few easy steps.</h3>
+                <Fade cascade damping={0.2} className='w-full overflow-hidden'>
+                    <h3 className="text-xl md:text-2xl lg:text-4xl font-medium mb-4 xl:mb-8 !leading-[1.5] xl:w-[90%]">Find a better card deal in few easy steps.</h3>
                     <p className="text-sm md:text-normal opacity-70 mb-4 xl:mb-8 w-[90%]">Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.</p>
                     <GradientButton text='Get Started' />
-                </Slide>
+                </Fade>
             </div>
 
             {/* Right section */}
@@ -28,7 +28,7 @@ const CardDeal = () => {
                     {/* Content */}
                     <div className="z-10 w-full">
                         <div className="overflow-hidden xl:pl-10 mb-6 md:mb-10 flex flex-col md:flex-row items-center justify-center gap-5 md:gap-16 xl:gap-0 xl:justify-between w-full">
-                            <Slide direction='right' cascade damping={0.2} className='w-full'>
+                            <Fade cascade damping={0.2} className='w-full'>
                                 {/* Scan credit card */}
                                 <div className="bg-slate-950 w-full md:w-fit flex items-center flex-col gap-2 p-4 rounded-lg bg-custom-gradient">
                                     <div className="bg-[#00030C] rounded-xl p-2">
@@ -74,12 +74,12 @@ const CardDeal = () => {
                                         ))}
                                     </div>
                                 </div>
-                            </Slide>
+                            </Fade>
                         </div>
 
                         {/* Pay method */}
                         <div className="flex justify-center items-center w-full overflow-hidden">
-                            <Slide direction='right' delay={200} className='w-full flex justify-center'>
+                            <Fade delay={200} className='w-full flex justify-center'>
                                 <div className="bg-slate-950 w-full md:w-[18rem] flex flex-col gap-2 p-4 rounded-lg bg-custom-gradient">
                                     <div className="flex items-center justify-between mb-3">
                                         <p className="text-md font-medium">Pay Method</p>
@@ -101,7 +101,7 @@ const CardDeal = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </Slide>
+                            </Fade>
                         </div>
                     </div>
 
