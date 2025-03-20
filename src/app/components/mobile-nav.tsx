@@ -28,7 +28,7 @@ const MobileNav = ({isNavOpen, setIsNavOpen}: IMobileNavProps) => {
 
     return (
         <>
-                <Slide direction="down" triggerOnce>
+            <Slide direction="down" triggerOnce>
         
             <header className="xl:hidden z-[9999]">
                 <div className={`${isNavOpen && "hidden"} pt-6 pb-10 flex items-center justify-between section-padding`}>
@@ -44,7 +44,6 @@ const MobileNav = ({isNavOpen, setIsNavOpen}: IMobileNavProps) => {
                     {
                         isNavOpen &&
                         <nav 
-                            // className="absolut bg-white w-full left-0 px-5 py-6 z-[99999] md:hidden flex flex-col gap-4 h-screen overflow-hidden fixed top-0"
                             className="absolut bg-white/90 backdrop-blur-md h-screen w-screen bg-whit px-5 py-6 z-[999] xl:hidden flex flex-col gap-4"
                         >
                             <div className="flex self-end">
@@ -76,7 +75,7 @@ const MobileNav = ({isNavOpen, setIsNavOpen}: IMobileNavProps) => {
                     }
                 `}</style>
         </header>
-                </Slide>
+        </Slide>
         </>
     )
 }

@@ -5,9 +5,9 @@ import GradientButton from './common/gradient-button';
 
 const CardDeal = () => {
     return (
-        <section className='section-padding mb-10 xl:mb-0 text-white flex flex-col xl:flex-row items-center gap-10 lg:gap-6 xl:gap-10'>
-            {/* Left ection */}
-            <div className="w-full xl:w-[50%]">
+        <section className='section-padding mb-14 md:mb-28 text-white flex flex-col xl:flex-row items-cente gap-10 lg:gap-6 xl:gap-10'>
+            {/* Left section */}
+            <div className="w-full xl:w-[50%] xl:pt-6">
                 <Fade cascade damping={0.2} className='w-full overflow-hidden'>
                     <h3 className="text-xl md:text-2xl lg:text-4xl font-medium mb-4 xl:mb-8 !leading-[1.5] xl:w-[90%]">Find a better card deal in few easy steps.</h3>
                     <p className="text-sm md:text-normal opacity-70 mb-4 xl:mb-8 w-[90%]">Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.</p>
@@ -17,11 +17,11 @@ const CardDeal = () => {
 
             {/* Right section */}
             <div className="w-full xl:w-[50%]">
-                <section className="relative flex items-center justify-center md:h-[40rem] g-[#14101D]">
+                <section className="relative flex items-center justify-center d:h-[40rem] g-[#14101D]">
                     {/* Circles */}
-                    <div className="absolute w-[20rem] md:w-[30rem] h-[20rem] md:h-[30rem] rounded-full border- border-[10px] border-[#133E4B]  /10 flex items-center justify-center">
-                        <div className="w-[15rem] md:w-[20rem] h-[15rem] md:h-[20rem] rounded-full border-[6px] border-[#133E4B]  /20 flex items-center justify-center">
-                        <div className="w-[7rem] md:w-[10rem] h-[7rem] md:h-[10rem] rounded-full border-[3px] border-[#133E4B]  /30"></div>
+                    <div className="absolute w-[17rem] md:w-[27rem] h-[17rem] md:h-[27rem] rounded-full border- border-[10px] border-[#133E4B]  /10 flex items-center justify-center">
+                        <div className="w-[12rem] md:w-[17rem] h-[12rem] md:h-[17rem] rounded-full border-[6px] border-[#133E4B]  /20 flex items-center justify-center">
+                        <div className="w-[4rem] md:w-[7rem] h-[4rem] md:h-[7rem] rounded-full border-[3px] border-[#133E4B]  /30"></div>
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@ const CardDeal = () => {
                                 </div>
 
                                 {/* Online Analysis */}
-                                <div className="bg-slate-950 w-full md:w-[20rem] flex items-cente flex-col gap-2 p-4 rounded-lg bg-custom-gradient">
+                                <div className="bg-slate-950 w-full md:w-[18rem] flex items-cente flex-col gap-2 p-4 rounded-lg bg-custom-gradient">
                                     <div className="flex items-center justify-between mb-3">
                                         <p className="text-md font-medium">Online Analysis</p>
                                         <div className="flex items-center gap-1">
@@ -48,7 +48,7 @@ const CardDeal = () => {
                                         </div>
                                     </div>
 
-                                    <div className="flex items-center justify-between mb-4">
+                                    <div className="flex items-center justify-between mb-2">
                                         <div className="text-[#00D2AA]">
                                             <p className="">$ 2,334,67</p>
                                             <p className="opacity-70">Income</p>
@@ -59,11 +59,11 @@ const CardDeal = () => {
                                         </div>
                                     </div>
 
-                                    <div className="w-full mb-4">
+                                    <div className="w-full mb-2">
                                         <Image src="/icons/card-deal/chart.svg" width={1000} height={400} alt='chart' />
                                     </div>
 
-                                    <div className="flex items-center justify-evenly">
+                                    <div className="flex items-center justify-center w-full text-xs">
                                         {['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'].map((month, index) => (
                                             <div 
                                                 key={index} 

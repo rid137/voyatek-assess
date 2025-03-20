@@ -6,7 +6,7 @@ import { testimonials } from '@/data/handle-business-data';
 
 const Testimonial = () => {
     return (
-        <section className='section-padding mb-10 text-white w-full'>
+        <section className='section-padding mb-16 text-white w-full'>
             <Slide direction="down">
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-20 w-full mb-10 md:mb-16">
                     <div className="w-full lg:w-[50%]"><h3 className="text-xl md:text-2xl lg:text-4xl font-medium !leading-[1.5] lg:w-[80%]">What people are saying about us</h3></div>
@@ -15,7 +15,7 @@ const Testimonial = () => {
             </Slide>
 
             {/* Testimonial card */}
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full gap-2 md:gap-10 mb-16 overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full gap-2 md:gap-10 mb-10 xl:mb-20 overflow-hidden">
                 <Fade cascade damping={0.2} className='w-full overflow-hidden'>
                 {
                     testimonials?.map((testimonial, index) => (
@@ -38,18 +38,18 @@ const Testimonial = () => {
 
             {/* Logo icons */}
             <Fade cascade damping={0.2}>
-                <div className="flex items-center justify-evenly w-full mb-16 gap-4">
+                <div className="flex items-center justify-evenly w-full mb-10 xl:mb-20 gap-4">
                     <div className="w-1/2 sm:w-1/4 md:w-1/6 lg:w-1/8">
-                        <Image src="/icons/testimonials/airbnb.svg" layout="responsive" width={150} height={150} alt='airbnb logo' />
+                        <Image src="/icons/testimonials/airbnb.svg" layout='responsive' width={140} height={140} alt='airbnb logo' />
                     </div>
                     <div className="w-1/2 sm:w-1/4 md:w-1/6 lg:w-1/8">
-                        <Image src="/icons/testimonials/binance.svg" layout="responsive" width={150} height={150} alt='binance logo' />
+                        <Image src="/icons/testimonials/binance.svg" layout='responsive' width={140} height={140} alt='binance logo' />
                     </div>
                     <div className="w-1/2 sm:w-1/4 md:w-1/6 lg:w-1/8">
-                        <Image src="/icons/testimonials/coinbase.svg" layout="responsive" width={150} height={150} alt='coinbase logo' />
+                        <Image src="/icons/testimonials/coinbase.svg" layout='responsive' width={140} height={140} alt='coinbase logo' />
                     </div>
                     <div className="w-1/2 sm:w-1/4 md:w-1/6 lg:w-1/8">
-                        <Image src="/icons/testimonials/dropbox.svg" layout="responsive" width={150} height={150} alt='dropbox logo' />
+                        <Image src="/icons/testimonials/dropbox.svg" layout='responsive' width={140} height={140} alt='dropbox logo' />
                     </div>
                 </div>
             </Fade>

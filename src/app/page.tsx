@@ -10,9 +10,6 @@ import Footer from './components/footer'
 
 const HomePage = () => {
     return (
-        // <div className="container size-20 flex items-center justify-center bg-[linear-gradient(to_left,#DEF9FA_0%,#BEF3F5_20%,#9DEDF0_40%,#7DE7EB_60%,#5CE1E6_80%,#33BBCF_100%)] rounded-full">
-        
-        // </div>
         <div>
             <Header />
             <Hero />
